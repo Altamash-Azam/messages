@@ -27,6 +27,7 @@
     "embla-carousel-class-names": "^8.6.0",
     "embla-carousel-react": "^8.6.0",
     "lucide-react": "^0.517.0",
+    "mongodb": "^6.17.0",
     "mongoose": "^8.16.0",
     "next": "15.3.3",
     "next-auth": "^4.24.11",
