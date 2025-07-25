@@ -21,8 +21,8 @@ const Navbar = () => {
                 session ? (
                     <>
                     <span className='mr-4'>Welcome, {user?.username || user?.email}</span>
-                    <div>
-                        <button onClick={()=>{setTheme(theme === "light" ? "dark" : "light")}}>change</button>
+                    <div className='flex flex-row gap-2'>
+                        <Switch onClick={()=>{setTheme(theme === "dark" ? "light" : "dark")}}>change</Switch>
                         <button className='w-full md:w-auto' onClick={()=>{signOut()}}>Logout</button>
                     </div>
                     </>
